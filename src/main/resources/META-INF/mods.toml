@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "All rights reserved"
+[[mods]]
+modId = "zombiegame"
+version = "${file.jarVersion}"
+displayName = "Zombie Game"
+logoFile = "icon.png"
+authors = "aljun2007"
+description = '''
+'''
+[[dependencies.zombiegame]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.zombiegame]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.4]"
+ordering = "NONE"
+side = "BOTH"
